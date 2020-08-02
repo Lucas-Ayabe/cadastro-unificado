@@ -1,0 +1,14 @@
+{
+  "name": "xml-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Akira Ayabe <lucas.ayabe@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.14.3",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
+  }
+}
