@@ -8,7 +8,7 @@
         class="card is-center flow"
         style="width: 450px;"
     >
-        <h1>XML Storage</h1>
+        <h1>Cadastro Unificado</h1>
         <div class="field is-file">
             <label for="xml" class="label">Seu arquivo XML</label>
             <input id="xml" name="xml" type="file" class="input" />
