@@ -1,33 +1,21 @@
 ## Instalação
+
 Você pode clonar este repositório OU baixar o .zip
 
-Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o *autoload*.
+Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o _autoload_.
 
-Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
+Vá até a pasta do projeto, pelo _prompt/terminal_ e execute:
+
 > composer install
 
 Depois é só aguardar.
 
 ## Configuração
-Todos os arquivos de **configuração** e aplicação estão dentro da pasta *src*.
 
-As configurações de Banco de Dados e URL estão no arquivo *src/Config.php*
+Todos os arquivos de **configuração** e aplicação estão dentro da pasta _src_.
 
-É importante configurar corretamente a constante *BASE_DIR*:
+As configurações de Banco de Dados e URL estão no arquivo _src/Config.php_
+
+É importante configurar corretamente a constante _BASE_DIR_:
+
 > const BASE_DIR = '/**PastaDoProjeto**/public';
-
-## Uso
-Você deve acessar a pasta *public* do projeto.
-
-O ideal é criar um ***alias*** específico no servidor que direcione diretamente para a pasta *public*.
-
-## Modelo de MODEL
-```php
-<?php
-namespace src\models;
-use \core\Model;
-
-class Usuario extends Model {
-
-}
-```# cadastro-unificado
